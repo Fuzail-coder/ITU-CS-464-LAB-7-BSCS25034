@@ -6,6 +6,8 @@ public class DebugTools : MonoBehaviour
 {
     public void Add100Gems() { GameData.AddGems(100); }
 
+    public void Add1000Gems() { GameData.AddGems(1000); }
+
     public void AddRandomScore() { GameData.AddScore(Random.Range(100, 5000)); }
 
     public void ResetEverything()
